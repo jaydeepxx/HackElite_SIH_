@@ -1,7 +1,7 @@
 /* .navbar-brand{
     font-family: 'Bungee', cursive;
 } */
-body {
+/* body {
     padding: 0;
     margin: 0;
 }
@@ -12,9 +12,9 @@ body {
     border-radius:3px;
     padding:7px 19px
     }
-    
+     */
     /*google translate link | logo */
-      .goog-logo-link{
+/*       .goog-logo-link{
       display:none!important;
       }
     .goog-te-gadget{
@@ -36,12 +36,12 @@ body {
             font-family: sans-serif !important;
             font-size: 13pt !important;
         }
-    }
+    } */
     
     
     /* google translate banner-frame */
     
-    .goog-te-banner-frame{
+/*     .goog-te-banner-frame{
     display:none !important;
     }
     .goog-te-combo, .goog-te-banner *, .goog-te-ftab *, .goog-te-menu *, .goog-te-menu2 *, .goog-te-balloon *{
@@ -52,7 +52,7 @@ body {
     #goog-gt-tt, .goog-te-balloon-frame{display: none !important;}
    .goog-text-highlight { background: none !important; box-shadow: none !important;}
     
-    body{top:0!important;}
+    body{top:0!important;} */
     
 .logo-img {
     width: 1.5rem;
