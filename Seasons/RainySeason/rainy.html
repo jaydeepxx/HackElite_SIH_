@@ -22,7 +22,7 @@
       
       <section id="title">
     <nav>
-      <a href="https://jaydeepxx.github.io/HackElite_SIH_/">
+      <a href="">
         <div class="logo"><img src="images/Vector.png" style="width: 32px; height: 32px; padding-bottom: 4px; padding-left: 2px;" alt="" class="logo-img"> Agrobuddy
         </div>
       </a>
@@ -38,7 +38,7 @@
           <li class="nav-item"><a href="#">Home</a></li>
           <li class="nav-item"><a href="#contact-us">Contact Us</a></li>
           <li class="nav-item dropdown">
-            <div data-action="dropdown-toggle" id="google_element"></div>
+            <div data-action="dropdown-toggle" id="google_translate_element"></div>
               <!-- <a href="#" data-action="dropdown-toggle">English</a>
               <div class="dropdown-menu">
                   <a class="dropdown-item" href="#">English</a>
@@ -128,7 +128,7 @@
           <div class="footer-col">
               <h4>Pages</h4>
               <ul>
-                  <li><a href="https://jaydeepxx.github.io/HackElite_SIH_/">Home</a></li>
+                  <li><a href="#">Home</a></li>
                   <li><a href="#">Contact Us</a></li>
                   
               </ul>
@@ -163,14 +163,12 @@
   </div>
 </footer>
     
-<div id="google_element"></div>
-<script src="http://translate.google.com/translate_a/element.js?cb=loadGoogleTranslate"></script>
-<script>
-function loadGoogleTranslate(){
-    new google.translate.TranslateElement(
-        "google_element")
-}
-</script>
+<script type="text/javascript">
+  function googleTranslateElementInit() {
+    new google.translate.TranslateElement({pageLanguage: 'en'}, 'google_translate_element');
+  }
+  </script>
+  <script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>

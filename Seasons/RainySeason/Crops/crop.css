@@ -3,7 +3,7 @@ body {
     margin: 0;
 }
 
-#google_element select {
+#google_translate_element select {
     background: #363d4e;
     color: #ffffff;
     border: none;
